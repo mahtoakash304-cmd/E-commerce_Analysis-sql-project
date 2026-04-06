@@ -1,7 +1,7 @@
 # E-commerce_Analysis-sql-project
 # 🛒 E-Commerce Sales & Customer Analytics System (SQL Project)
 
-## 📌 Project Overview
+## Project Overview
 This is an **SQL-based E-Commerce Analytics Project** where we create a complete database system and generate meaningful business reports using SQL.
 
 The project covers all major SQL concepts such as:
@@ -18,7 +18,7 @@ The project covers all major SQL concepts such as:
 
 ---
 
-## 🎯 Objective
+## Objective
 The main goal of this project is to analyze e-commerce business data and generate reports such as:
 
 - Customer Dashboard
@@ -29,7 +29,7 @@ The main goal of this project is to analyze e-commerce business data and generat
 
 ---
 
-## 🗂 Database Schema
+## Database Schema
 
 ### 1) Customers
 | Column | Type |
@@ -86,15 +86,14 @@ Payment status values:
 
 ---
 
-## 🔗 Relationships (ER Overview)
+## Relationships (ER Overview)
 - One customer can place multiple orders (**Customers → Orders**)
 - One order can have multiple items (**Orders → Order_Items**)
 - Products are linked with order items (**Products → Order_Items**)
 - Each order has a payment record (**Orders → Payments**)
 
 ---
-
-## ⚙️ How to Run This Project
+##  How to Run This Project
 
 ### Step 1: Create Database & Tables
 Run the file:
